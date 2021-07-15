@@ -19,12 +19,6 @@
 						"referenceName": "dataflow1",
 						"type": "DataFlowReference"
 					},
-					"staging": {
-						"linkedService": {
-							"referenceName": "SrcBlobStorage",
-							"type": "LinkedServiceReference"
-						}
-					},
 					"compute": {
 						"coreCount": 8,
 						"computeType": "General"
